@@ -5,6 +5,9 @@ import jakarta.persistence.*;
 @Entity
 @Table(name="employee")
 public class Employee {
+    public Employee() {
+    }
+
     @Override
     public String toString() {
         return "Employee{" +

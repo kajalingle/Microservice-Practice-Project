@@ -3,6 +3,9 @@ package com.employee.model.dto;
 public class EmployeeDto {
     private Long id;
 
+    public EmployeeDto() {
+    }
+
     @Override
     public String toString() {
         return "EmployeeDto{" +
